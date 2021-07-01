@@ -47,27 +47,6 @@ apis:
           content: "Advanced documents and text translation SDK for Java applications. Translate text from Word, Excel & PowerPoint document formats to other popular languages using modern neural machine translation approach."
 
     # api loop
-    - title: "GroupDocs.Translation On Premise APIs Include"
-      link: "https://products.groupdocs.com/translation/"
-      label: "View All On Premise APIs"
-      api_product:
-        # api_product loop
-        - link: "https://products.groupdocs.com/translation/net/"
-          img_alt: "GroupDocs.Translation for .NET"
-          image: "/logo/net/groupdocs-translation.png"
-          product: "GroupDocs.Translation"
-          platform: ".NET"
-          content: "Comming Soon!"
-
-        # api_product loop
-        - link: "https://products.groupdocs.app/translation/java/"
-          img_alt: "GroupDocs.Translation for Java"
-          image: "/logo/java/groupdocs-translation.png"
-          product: "GroupDocs.Translation"
-          platform: "Java"
-          content: "Comming Soon!"
-
-    # api loop
     - title: "GroupDocs.Translation Cross Platform Apps Include"
       link: "https://products.groupdocs.app/translation/family"
       label: "View All Cross Platform Apps"

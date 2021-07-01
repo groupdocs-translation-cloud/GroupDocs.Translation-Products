@@ -66,7 +66,7 @@ overview:
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the main features supported by GroupDocs.Translation Cloud for .NET.
+          An overview of the main features supported by GroupDocs.Translation Cloud.
       
         left:
           enable: true

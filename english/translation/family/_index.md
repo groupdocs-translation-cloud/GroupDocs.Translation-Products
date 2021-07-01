@@ -26,7 +26,7 @@ apis:
           img_alt: "GroupDocs.Translation Cloud for cURL"
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Translation"
-          platform: "Cloud for cURL"
+          platform: "cURL"
           content: "Work with cURL commands to send requests to GroupDocs.Translation REST API and transform text on documents between 22 language pairs."
 
         # api_product loop
