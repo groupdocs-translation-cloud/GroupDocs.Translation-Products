@@ -78,7 +78,7 @@ apis:
 ############################# Testimonials ###############################
 testimonials:
   link: "https://downloads.groupdocs.com/corporate/success-stories"
-  enable: true
+  enable: false
   bg_color: "bg-gray"
 
   testimonial:
