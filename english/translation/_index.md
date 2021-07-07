@@ -61,24 +61,24 @@ apis:
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/docx"
-          img_alt: "GroupDocs.Translation TXT"
-          image: "/logo/app/groupdocs_txt-app.png"
+          img_alt: "GroupDocs.Translation DOCX"
+          image: "/logo/app/groupdocs_words-app.png"
           product: "GroupDocs.Translation"
-          platform: "TXT"
-          content: "Translate your text with 20 language pairs support without leaving your favorite web browser."
+          platform: "DOCX"
+          content: "Translate your DOCX content with 20 language pairs support without leaving your favorite web browser."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/pdf"
           img_alt: "GroupDocs.Translation PDF"
-          image: "/logo/app/groupdocs_words-app.png"
+          image: "/logo/app/groupdocs_pdf-app.png"
           product: "GroupDocs.Translation"
-          platform: "DOCX"
-          content: "Translate your Microsoft Word documents to multiple languages from anywhere, using any browser."
+          platform: "PDF"
+          content: "Translate your PDF documents to multiple languages from anywhere, using any browser."
 
 ############################# Testimonials ###############################
 testimonials:
-  link: "https://products.groupdocs.app/translation/pdf"
-  enable: false
+  link: "https://downloads.groupdocs.com/corporate/success-stories"
+  enable: true
   bg_color: "bg-gray"
 
   testimonial:
