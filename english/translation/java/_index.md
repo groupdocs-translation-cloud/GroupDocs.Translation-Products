@@ -11,11 +11,11 @@ platform_tag: "java"
 
 ############################# Head ############################
 head_title: "Java Word & Excel Document Translation SDK & REST API"
-head_description: "Java document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and Portuguese languages."
+head_description: "Java document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages."
 
 ############################# Header ############################
 title: "Document Translation REST API & Java SDK"
-description: "Add features of documents and plain text translation in your Java applications using Cloud REST API. Accurately translate content between 10 most widely used business languages."
+description: "Add features of documents and plain text translation in your Java applications using Cloud REST API. Accurately translate content between 14 most widely used business languages."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Java makes it simple for developers translating the contents on Microsoft Word, Excel, PowerPoint and plain text documents without using any external software. The API employs a smart neural machine translation approach to translate text from Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables) and PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) into 22 language pairs. The SDK supports converting English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and Portuguese languages while keeping the original document structure undisturbed.
+      GroupDocs.Translation Cloud SDK for Java makes it simple for developers translating the contents on Microsoft Word, Excel, PowerPoint, PDF documents and plain text without using any external software. The API employs a smart neural machine translation approach to translate text from Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) and PDF documents into 30 language pairs. The SDK supports converting English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages while keeping the original document structure undisturbed.
 
       GroupDocs.Translation REST API can easily integrate into existing systems thus managing the low-level details of API requests and handling responses to boost up the overall productivity. You just need to pass out request parameters (path of source file name, format & folder, choose the language pair to translate between, mention the name of translated file, folder and location of the target file to be stored) and get the documents translated by adding a few lines of code.
     tabs:
@@ -77,6 +77,7 @@ overview:
             * Translate Word Documents
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
+            * Translate PDF Documents
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -93,6 +94,10 @@ overview:
             * English to Arabic & vice versa
             * English to Polish & vice versa
             * English to Portuguese & vice versa
+            * English to Ukrainian & vice versa
+            * English to Vietnamese & vice versa
+            * English to Indonesian & vice versa
+            * English to Hindi & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -108,7 +113,14 @@ overview:
                 * **Word**: DOC, DOCX, DOCM
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
-                
+
+        right:
+          enable: true
+          table:
+            # table loop
+            - title: "Other Formats"
+              content: |
+                * **PDF**               
 
         
 
@@ -160,7 +172,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 10 languages and 22 language pairs"
+        content: "Supports 14 languages and 30 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
@@ -287,32 +299,32 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
+        - img_alt: "GroupDocs.Translation Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "cURL"
           link: "/translation/curl/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
+        - img_alt: "GroupDocs.Translation Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: ".NET"
           link: "/translation/net/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
 
         
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Python"
           link: "/translation/python/"
 

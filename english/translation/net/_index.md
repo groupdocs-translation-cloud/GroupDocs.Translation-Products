@@ -11,11 +11,11 @@ platform_tag: "net"
 
 ############################# Head ############################
 head_title: ".NET Word & Excel Document Translation SDK & REST API"
-head_description: ".NET document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish or Russian languages."
+head_description: ".NET document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish or other languages."
 
 ############################# Header ############################
 title: ".NET Cloud SDK for Document Translation"
-description: "Translate plain text, Microsoft Word, Excel & PowerPoint documents between 10 most popular business languages using documents translation Cloud SDK & REST API."
+description: "Translate plain text, Microsoft Word, Excel, PowerPoint & PDF documents between 14 most popular business languages using documents translation Cloud SDK & REST API."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for .NET helps developers to add text and document translation features in any type of .NET based application without using external software. The API uses modern machine learning techniques to efficiently read & translate the on-page contents of Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables) and PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) between 10 of the leading business languages. It includes translating English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and Portuguese language pairs without disrupting the original document structure.
+      GroupDocs.Translation Cloud SDK for .NET helps developers to add text and document translation features in any type of .NET based application without using external software. The API uses modern machine learning techniques to efficiently read & translate the on-page contents of Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) and PDF documents between 14 of the leading business languages. It includes translating English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other language pairs without disrupting the original document structure.
 
       GroupDocs.Translation Cloud is a true REST API thus offering flexibility to use it with any language or platform that supports REST. It easily integrates with other cloud services to provide an ideal document translation experience across web, mobile desktop or cloud platforms.
     tabs:
@@ -77,6 +77,7 @@ overview:
             * Translate Word Documents
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
+            * Translate PDF Documents
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -93,6 +94,10 @@ overview:
             * English to Arabic & vice versa
             * English to Polish & vice versa
             * English to Portuguese & vice versa
+            * English to Ukrainian & vice versa
+            * English to Vietnamese & vice versa
+            * English to Indonesian & vice versa
+            * English to Hindi & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -109,6 +114,13 @@ overview:
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
                 
+        right:
+          enable: true
+          table:
+            # table loop
+            - title: "Other Formats"
+              content: |
+                * **PDF**
 
         
 
@@ -160,7 +172,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 10 languages and 22 language pairs"
+        content: "Supports 14 languages and 30 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
@@ -273,32 +285,32 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
+        - img_alt: "GroupDocs.Translation Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "cURL"
           link: "/translation/curl/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
+        - img_alt: "GroupDocs.Translation Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: ".NET"
           link: "/translation/net/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
 
         
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Python"
           link: "/translation/python/"
 

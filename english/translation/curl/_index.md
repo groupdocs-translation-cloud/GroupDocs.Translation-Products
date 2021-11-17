@@ -11,11 +11,11 @@ platform_tag: "curl"
 
 ############################# Head ############################
 head_title: "Translate English Text from Word & Excel Documents via cURL Commands"
-head_description: "Translate text from Word and Excel worksheets via cURL commands. Supports translating English to & from French, German, Chinese, Italian, Spanish or Russian languages"
+head_description: "Translate text from Word and Excel worksheets via cURL commands. Supports translating English to & from French, German, Chinese, Italian, Spanish, Russian or other languages"
 
 ############################# Header ############################
 title: "Translate Documents using cURL"
-description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel & PowerPoint documents in popular business languages without installing any external software."
+description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint & PDF documents in popular business languages without installing any external software."
 button:
     enable: true
 
@@ -57,9 +57,9 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel and PowerPoint documents across 22 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or Portuguese languages, and back again.
+      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint & PDF documents across 30 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
 
-      The API precisely reads the text within the contents of Word documents (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) and Excel spreadsheets (charts, tables, pivot tables) without affecting the layout and properties of the original source document.
+      The API precisely reads the text within the contents of Word documents (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
     tabs:
       enable: true
       
@@ -77,6 +77,7 @@ overview:
             * Translate Word Documents
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
+            * Translate PDF Documents
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -93,6 +94,10 @@ overview:
             * English to Arabic & vice versa
             * English to Polish & vice versa
             * English to Portuguese & vice versa
+            * English to Ukrainian & vice versa
+            * English to Vietnamese & vice versa
+            * English to Indonesian & vice versa
+            * English to Hindi & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -109,7 +114,13 @@ overview:
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
                 
-
+        right:
+          enable: true
+          table:
+            # table loop
+            - title: "Other Formats"
+              content: |
+                * **PDF**
         
 
 
@@ -160,7 +171,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 10 languages and 22 language pairs"
+        content: "Supports 14 languages and 30 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
@@ -260,36 +271,36 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Viewer Cloud also offers individual document rendering SDKs for other popular languages as listed below:"
+    title: "GroupDocs.Translation Cloud also offers individual document translation SDKs for other popular languages as listed below:"
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
+        - img_alt: "GroupDocs.Translation Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "cURL"
           link: "/translation/curl/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
+        - img_alt: "GroupDocs.Translation Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: ".NET"
           link: "/translation/net/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
 
         
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Python"
           link: "/translation/python/"
 

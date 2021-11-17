@@ -11,7 +11,7 @@ platform_tag: "python"
 
 ############################# Head ############################
 head_title: "Python Word & Excel Document Translation SDK & REST API"
-head_description: "Python document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and Portuguese languages."
+head_description: "Python document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages."
 
 ############################# Header ############################
 title: "Python Document Translation REST API & SDK"
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint and plain text documents within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and Portuguese without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
+      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint, PDF documents and plain text within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and others without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
 
       GroupDocs.Translation Cloud SDK for Python has been built as a layer on top of GroupDocs.Translation Cloud REST API that saves valuable development time by managing low-level requests and handling responses. The developers can focus on writing up the specific code only as needed in the project.
     tabs:
@@ -77,6 +77,7 @@ overview:
             * Translate Word Documents
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
+            * Translate PDF Documents
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -93,6 +94,10 @@ overview:
             * English to Arabic & vice versa
             * English to Polish & vice versa
             * English to Portuguese & vice versa
+            * English to Ukrainian & vice versa
+            * English to Vietnamese & vice versa
+            * English to Indonesian & vice versa
+            * English to Hindi & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -109,7 +114,13 @@ overview:
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
                 
-
+        right:
+          enable: true
+          table:
+            # table loop
+            - title: "Other Formats"
+              content: |
+                * **PDF**
         
 
 
@@ -160,7 +171,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 10 languages and 22 language pairs"
+        content: "Supports 14 languages and 30 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
@@ -284,32 +295,32 @@ solutions:
 
     solution:
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for cURL"
+        - img_alt: "GroupDocs.Translation Cloud SDK for cURL"
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "cURL"
           link: "/translation/curl/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for .NET"
+        - img_alt: "GroupDocs.Translation Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: ".NET"
           link: "/translation/net/"
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Java"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Java"
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
 
         
 
         # solution loop
-        - img_alt: "GroupDocs.Viewer Cloud SDK for Python"
+        - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
-          product: "GroupDocs.Viewer"
+          product: "GroupDocs.Translation"
           platform: "Python"
           link: "/translation/python/"
 

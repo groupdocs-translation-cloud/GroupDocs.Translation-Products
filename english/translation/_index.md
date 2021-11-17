@@ -28,7 +28,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Translation"
           platform: "cURL"
-          content: Interact with documents translation REST API using cURL commands. Convert English text to and from your source document formats to French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and Portuguese languages."
+          content: Interact with documents translation REST API using cURL commands. Convert English text to and from your source document formats to French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and other languages."
 
         # api_product loop
         - link: "/translation/net/"
@@ -36,7 +36,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Translation"
           platform: ".NET"
-          content: "Use language translation RESTful API easily with .NET Cloud SDK to transform text and on-page contents of popular business file formats into 10 international languages and 22 language pairs."
+          content: "Use language translation RESTful API easily with .NET Cloud SDK to transform text and on-page contents of popular business file formats into 14 international languages and 30 language pairs."
 
         # api_product loop
         - link: "/translation/java/"
@@ -65,7 +65,7 @@ apis:
           image: "/logo/app/groupdocs_words-app.png"
           product: "GroupDocs.Translation"
           platform: "DOCX"
-          content: "Translate your DOCX content with 20 language pairs support without leaving your favorite web browser."
+          content: "Translate your DOCX content with 30 language pairs support without leaving your favorite web browser."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/pdf"
