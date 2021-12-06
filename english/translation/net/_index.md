@@ -15,7 +15,7 @@ head_description: ".NET document translation Cloud SDK & REST API. Translate Eng
 
 ############################# Header ############################
 title: ".NET Cloud SDK for Document Translation"
-description: "Translate plain text, Microsoft Word, Excel, PowerPoint & PDF documents between 14 most popular business languages using documents translation Cloud SDK & REST API."
+description: "Translate plain text, Microsoft Word, Excel, PowerPoint, PDF & Markdown documents between 14 most popular business languages using documents translation Cloud SDK & REST API."
 button:
     enable: true
 
@@ -78,6 +78,7 @@ overview:
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
             * Translate PDF Documents
+            * Translate Markdown files
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -121,6 +122,7 @@ overview:
             - title: "Other Formats"
               content: |
                 * **PDF**
+                * **Markdown**
 
         
 

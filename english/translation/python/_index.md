@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint, PDF documents and plain text within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and others without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
+      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint, PDF, Markdown documents and plain text within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and others without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
 
       GroupDocs.Translation Cloud SDK for Python has been built as a layer on top of GroupDocs.Translation Cloud REST API that saves valuable development time by managing low-level requests and handling responses. The developers can focus on writing up the specific code only as needed in the project.
     tabs:
@@ -78,6 +78,7 @@ overview:
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
             * Translate PDF Documents
+            * Translate Markdown files
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -121,6 +122,7 @@ overview:
             - title: "Other Formats"
               content: |
                 * **PDF**
+                * **Markdown**
         
 
 

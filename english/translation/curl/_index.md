@@ -15,7 +15,7 @@ head_description: "Translate text from Word and Excel worksheets via cURL comman
 
 ############################# Header ############################
 title: "Translate Documents using cURL"
-description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint & PDF documents in popular business languages without installing any external software."
+description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint, PDF & Markdown documents in popular business languages without installing any external software."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint & PDF documents across 30 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
+      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF & Markdown documents across 30 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
 
       The API precisely reads the text within the contents of Word documents (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
     tabs:
@@ -78,6 +78,7 @@ overview:
             * Translate Excel Worksheets
             * Translate PowerPoint Slides
             * Translate PDF Documents
+            * Translate Markdown files
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -121,6 +122,7 @@ overview:
             - title: "Other Formats"
               content: |
                 * **PDF**
+                * **Markdown**
         
 
 

@@ -6,11 +6,11 @@ draft: false
 
 ############################# Head ############################
 head_title: "Business Documents Translation Solution"
-head_description: "Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint file formats into other languages across popular platforms"
+head_description: "Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint, PDF and Markdown file formats into other languages across popular platforms"
 
 ############################# Header ############################
 title: "Business Documents Translation Solution"
-description: "‎Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint file formats into other languages across popular platforms"
+description: "‎Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint, PDF & Markdown file formats into other languages across popular platforms"
 
 ############################# APIs ###############################
 apis:
@@ -44,7 +44,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
           product: "GroupDocs.Translation"
           platform: "Java"
-          content: "Advanced documents and text translation SDK for Java applications. Translate text from Word, Excel & PowerPoint document formats to other popular languages using modern neural machine translation approach."
+          content: "Advanced documents and text translation SDK for Java applications. Translate text from Word, Excel, PowerPoint, PDF, Markdown document formats to other popular languages using modern neural machine translation approach."
 
     # api loop
     - title: "GroupDocs.Translation Cross Platform Apps Include"
@@ -57,15 +57,15 @@ apis:
           image: "/logo/app/groupdocs_translation-app.png"
           product: "GroupDocs.Translation"
           platform: "Total"
-          content: "Translate your Word and Excel documents to French, Chinese, Spanish, German, Russian, Arabic, and more languages using free online app."
+          content: "Translate your Word, Excel, PowerPoint, PDF, Markdown documents to French, Chinese, Spanish, German, Russian, Arabic, and more languages using free online app."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/docx"
-          img_alt: "GroupDocs.Translation DOCX"
+          img_alt: "GroupDocs.Translation Word"
           image: "/logo/app/groupdocs_words-app.png"
           product: "GroupDocs.Translation"
-          platform: "DOCX"
-          content: "Translate your DOCX content with 30 language pairs support without leaving your favorite web browser."
+          platform: "Word"
+          content: "Translate your Word content with 30 language pairs support without leaving your favorite web browser."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/pdf"
