@@ -15,7 +15,7 @@ head_description: "Java document translation Cloud SDK & REST API. Translate Eng
 
 ############################# Header ############################
 title: "Document Translation REST API & Java SDK"
-description: "Add features of documents and plain text translation in your Java applications using Cloud REST API. Accurately translate content between 14 most widely used business languages."
+description: "Add features of documents and plain text translation in your Java applications using Cloud REST API. Accurately translate content between 19 most widely used business languages."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Java makes it simple for developers translating the contents on Microsoft Word, Excel, PowerPoint, PDF, Markdown documents and plain text without using any external software. The API employs a smart neural machine translation approach to translate text from Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) and PDF documents into 30 language pairs. The SDK supports converting English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages while keeping the original document structure undisturbed.
+      GroupDocs.Translation Cloud SDK for Java makes it simple for developers translating the contents on Microsoft Word, Excel, PowerPoint, PDF, Markdown documents and plain text without using any external software. The API employs a smart neural machine translation approach to translate text from Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) and PDF documents into 42 language pairs. The SDK supports converting English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages while keeping the original document structure undisturbed.
 
       GroupDocs.Translation REST API can easily integrate into existing systems thus managing the low-level details of API requests and handling responses to boost up the overall productivity. You just need to pass out request parameters (path of source file name, format & folder, choose the language pair to translate between, mention the name of translated file, folder and location of the target file to be stored) and get the documents translated by adding a few lines of code.
     tabs:
@@ -86,6 +86,7 @@ overview:
           content: |
             * French to German & vice versa
             * French to Italian & vice versa
+            * French to Arabic & vice versa
             * English to French & vice versa
             * English to Deutsch & vice versa
             * English to Chinese & vice versa
@@ -99,6 +100,11 @@ overview:
             * English to Vietnamese & vice versa
             * English to Indonesian & vice versa
             * English to Hindi & vice versa
+            * English to Greek & vice versa
+            * English to Dutch & vice versa
+            * English to Swedish & vice versa
+            * English to Hungarian & vice versa
+            * English to Turkish & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -174,7 +180,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 14 languages and 30 language pairs"
+        content: "Supports 19 languages and 42 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
@@ -320,9 +326,7 @@ solutions:
           product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
-
         
-
         # solution loop
         - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
@@ -330,7 +334,12 @@ solutions:
           platform: "Python"
           link: "/translation/python/"
 
-      
+        # solution loop
+        - img_alt: "GroupDocs.Translation Cloud SDK for Android"
+          image: "/sdk/272x272/groupdocs_translation-for-android.webp"
+          product: "GroupDocs.Translation"
+          platform: "Android"
+          link: "/translation/android/"      
 
      
 

@@ -27,7 +27,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Translation"
           platform: "cURL"
-          content: "Work with cURL commands to send requests to GroupDocs.Translation REST API and transform text on documents between 30 language pairs."
+          content: "Work with cURL commands to send requests to GroupDocs.Translation REST API and transform text on documents between 42 language pairs."
 
         # api_product loop
         - link: "/translation/net/"
@@ -54,7 +54,15 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for Python"
-          content: "Documents translation SDK for Python to let you accurately transform text between 14 popular languages, directly from within your applications."
+          content: "Documents translation SDK for Python to let you accurately transform text between 19 popular languages, directly from within your applications."
+          
+        # api_product loop
+        - link: "/translation/android/"
+          img_alt: "GroupDocs.Translation Cloud SDK for Android"
+          image: "/sdk/272x272/groupdocs_translation-for-android.webp"
+          product: "GroupDocs.Translation"
+          platform: "Cloud SDK for Android"
+          content: "Cloud Android SDK for document translation with 42 language pairs support and optional conversion to another format."          
 ############################# Back to top ###############################
 back_to_top:
   enable: true

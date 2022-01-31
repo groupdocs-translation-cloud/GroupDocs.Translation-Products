@@ -86,6 +86,7 @@ overview:
           content: |
             * French to German & vice versa
             * French to Italian & vice versa
+            * French to Arabic & vice versa
             * English to French & vice versa
             * English to Deutsch & vice versa
             * English to Chinese & vice versa
@@ -99,6 +100,11 @@ overview:
             * English to Vietnamese & vice versa
             * English to Indonesian & vice versa
             * English to Hindi & vice versa
+            * English to Greek & vice versa
+            * English to Dutch & vice versa
+            * English to Swedish & vice versa
+            * English to Hungarian & vice versa
+            * English to Turkish & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -173,7 +179,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 14 languages and 30 language pairs"
+        content: "Supports 19 languages and 42 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
@@ -316,9 +322,7 @@ solutions:
           product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
-
         
-
         # solution loop
         - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
@@ -326,7 +330,12 @@ solutions:
           platform: "Python"
           link: "/translation/python/"
 
-      
+        # solution loop
+        - img_alt: "GroupDocs.Translation Cloud SDK for Android"
+          image: "/sdk/272x272/groupdocs_translation-for-android.webp"
+          product: "GroupDocs.Translation"
+          platform: "Android"
+          link: "/translation/android/"      
 
      
 

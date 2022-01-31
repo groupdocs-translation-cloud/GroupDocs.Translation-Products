@@ -6,16 +6,16 @@ draft: false
 
 product: "Translation"
 product_tag: "translation"
-platform: "cURL"
-platform_tag: "curl"
+platform: "Android"
+platform_tag: "android"
 
 ############################# Head ############################
-head_title: "Translate English Text from Word & Excel Documents via cURL Commands"
-head_description: "Translate text from Word and Excel worksheets via cURL commands. Supports translating English to & from French, German, Chinese, Italian, Spanish, Russian or other languages"
+head_title: "Android Word & Excel Document Translation SDK & REST API"
+head_description: "Android document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages."
 
 ############################# Header ############################
-title: "Translate Documents using cURL"
-description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint, PDF & Markdown documents in popular business languages without installing any external software."
+title: "Android Cloud SDK & REST API for Document Translation"
+description: "Use Android Cloud SDK to add text and document translation between 19 most widely used business languages to your applications."
 button:
     enable: true
 
@@ -24,10 +24,10 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Translation for Cloud"
-        image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
+        img_alt: "GroupDocs.Translation Cloud SDK for Android"
+        image: "/sdk/272x272/groupdocs_translation-for-android.webp"
         product: "GroupDocs.Translation"
-        platform: "cURL"
+        platform: "Android"
 
     middle:
         button:
@@ -49,7 +49,7 @@ submenu:
               text: "Pricing"
 
     right:
-        link_download: "https://github.com/groupdocs-translation-cloud/"
+        link_download: "https://groupdocscloud.github.io/"
         link_learn: "https://docs.groupdocs.cloud/translation/"
         link_buy: "https://purchase.groupdocs.cloud/buy"
 
@@ -57,9 +57,9 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF & Markdown documents across 30 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
+      GroupDocs.Translation Cloud SDK for Android was released to help Android developers to integrate translation features into their applications without using any external software. REST API is based on combination of modern neural network architecture to provide good translation quality and our products to extract text from Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel workbooks (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), PDF documents and Markdown files and insert translated content into the same place, preserving document structure, styles and layouts. The SDK supports translation from English into one of 18 popular business languages, including French, German, Spanish, Chinese, Russian, Arabic, Italian, Portuguese, etc. and 42 language pairs.
 
-      The API precisely reads the text within the contents of Word documents (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
+      GroupDocs.Translation REST API can easily integrate into existing systems thus managing the low-level details of API requests and handling responses to boost up the overall productivity. You just need to pass out request parameters (path of source file name, format & folder, choose the language pair to translate between, mention the name of translated file, folder and location of the target file to be stored) and get the documents translated by adding a few lines of code.
     tabs:
       enable: true
       
@@ -109,7 +109,8 @@ overview:
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Annotation Cloud supports a number of document formats including almost all common business document and image file formats.
+          GroupDocs.Translation Cloud SDK for Android
+          supports a number of document formats.
 
         left:
           enable: true
@@ -120,15 +121,16 @@ overview:
                 * **Word**: DOC, DOCX, DOCM
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
-                
+
         right:
           enable: true
           table:
             # table loop
             - title: "Other Formats"
               content: |
-                * **PDF**
-                * **Markdown**
+                * **PDF**  
+                * **Markdown**             
+
         
 
 
@@ -224,52 +226,75 @@ features:
     
     more_feature:
       # more_feature_loop
-      - title: "Any Language, Platform and Storage Service Provider"
-        content: "GroupDocs.Translation for Cloud is a REST based API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies. "
-
-      # more_feature_loop
-      - title: "Translate Word document - cURL"
-        content: |
-          
-          
-          ```shell
-          //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
-          curl -X POST "https://api.groupdocs.cloud/v1.0/translation/document" \
-          -H "Authorization: Bearer TOKEN" \
-          -H "Content-Type: application/json" \
-          -d "'[{\"format\": \"docx\", \"pair\": \"en-fr\", \"name\": \"test.docx\", \"folder\": \"\", \"savepath\": \"\", \"savefile\": \"translated.docx\", \"storage\": \"First Storage\"}]'"
-
-          and response
-
-          {
-              "status": "ok",
-              "message": "word file saved successfully"
-          }
-          ```
-      # more_feature_loop
-      - title: "Quick Start with Document Translation REST API"
+      - title: "Get Started with Document Translation REST API"
         content: "GroupDocs.Translation Cloud API comes with detailed developer guides and live code examples for all major programming languages to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API and you are ready to make an API request on any platform using cURL commands or the SDKs of your choice."
 
       # more_feature_loop
-      - title: "Translate plain text - cURL"
+      - title: "Translate Word document - Java"
+        content: |
+          
+          
+          ```java
+            //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
+
+            import com.GroupDocs.translate.api.*;
+            import com.GroupDocs.translate.Configuration;
+
+
+            private static void setUpConfig() throws Exception {
+                Configuration.setAPP_SID("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");
+                Configuration.setAPI_KEY("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+                }
+
+            public String TranslateDocument() {
+                String name = "test.docx";
+                String folder = "";
+                String pair = "en-fr";
+                String format = "docx";
+                String storage = "First Storage";
+                String saveFile = "translation.docx";
+                String savePath = "";
+                boolean masters = false;
+                ArrayList elements = new ArrayList();
+                FileInfo fileInfo = new FileInfo(name, folder, pair, format, storage, saveFile, savePath, masters, elements);
+                TranslationDocumentRequest translationDocumentRequest = new TranslationDocumentRequest(fileInfo.toString());
+                TranslateDocumentResponse translateDocumentResponse = TranslationApi.TranslateDocument(translationDocumentRequest)
+                return translateDocumentResponse.message;
+            }
+          ```
+      # more_feature_loop
+      - title: "Any Language, Platform and Storage Service Provider"
+        content: "GroupDocs.Translation for Cloud is a REST based API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies."
+
+      # more_feature_loop
+      - title: "Translate plain text - Java"
         content: |
           
           
           ```shell
             //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
-            curl -X POST "https://api.groupdocs.cloud/v1.0/translation/text" \
-            -H "Authorization: Bearer TOKEN" \
-            -H "Content-Type: application/json" \
-            -d "'[{\"pair\": \"en-fr\", \"text\": \"Welcome to Paris\"}]'"
 
-            //and response
+            import com.GroupDocs.translate.api.*;
+            import com.GroupDocs.translate.Configuration;
 
-            {
-                "status": "ok",
-                "message": "Text translated successfully",
-                "translation": "Bienvenue à Paris"
+
+            private static void setUpConfig() throws Exception {
+                Configuration.setAPP_SID("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");
+                Configuration.setAPI_KEY("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+                }
+
+            static String TranslateText() {
+                pair = "en-fr";
+                text = "Text to translate";
+                TextInfo textInfo = new TextInfo(pair, text);
+                TranslationTextRequest translationTextRequest = new TranslationTextRequest(TextInfo.toString());
+                TranslationTextResponse translateTextResponse = TranslationApi.TranslateText(translationTextRequest);
+                return translateTextResponse.translation;
             }
           ```
+      # more_feature_loop
+      - title: "Security and Authentication"
+        content: "The GroupDocs.Translation Cloud API is SSL secured and the authentication requests require a signature and AppSID query parameters or OAuth 2.0 authorization header."
       
 
 ############################# Support ############################
@@ -279,7 +304,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Translation Cloud also offers individual document translation SDKs for other popular languages as listed below:"
+    title: "GroupDocs.Translation Cloud also offers document translation SDKs for other languages as listed below:"
 
     solution:
         # solution loop
@@ -302,21 +327,24 @@ solutions:
           product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
-
+        
         # solution loop
         - img_alt: "GroupDocs.Translation Cloud SDK for Python"
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
           product: "GroupDocs.Translation"
           platform: "Python"
-          link: "/translation/python/"        
+          link: "/translation/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Translation Cloud SDK for Android"
           image: "/sdk/272x272/groupdocs_translation-for-android.webp"
           product: "GroupDocs.Translation"
           platform: "Android"
-          link: "/translation/android/"
-          
+          link: "/translation/android/"      
+
+     
+
+        
 
 ############################# Back to top ###############################
 back_to_top:
