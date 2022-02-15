@@ -1,0 +1,47 @@
+# This workflow copy content modified in the main branch to production branch.
+
+name: CopyContenttranslation
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  # I actually disable this workflow to run as we don't need this any more.
+  push:
+    branches: [ main ]
+    paths:
+      - 'english/translation/**'
+  pull_request:
+    branches: [ main1 ]
+    paths:
+      - 'english/translation/**'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+
+    # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    - name: CopyContenttranslation
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.REPO_TOKEN }}
+        src_path: ./english/translation/.
+        dst_path: /content/english/translation/
+        dst_owner: groupdocs-cloud
+        dst_repo_name: products-qa.groupdocs.cloud
+        dst_branch: master
+        src_branch: master
+        clean: true
