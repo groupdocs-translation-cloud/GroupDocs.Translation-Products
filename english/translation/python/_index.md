@@ -105,6 +105,15 @@ overview:
             * English to Swedish & vice versa
             * English to Hungarian & vice versa
             * English to Turkish & vice versa
+            * English to Japanese & vice versa
+            * English to Korean & vice versa
+            * English to Czech & vice versa
+            * English to Finnish & vice versa
+            * English to Irish & vice versa
+            * English to Slovak & vice versa
+            * English to Farsi & vice versa
+            * English to Hebrew & vice versa
+            * English to Azerbaijani & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -179,7 +188,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 19 languages and 42 language pairs"
+        content: "Supports 28 languages and 60 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

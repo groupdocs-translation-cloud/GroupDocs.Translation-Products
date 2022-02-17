@@ -15,7 +15,7 @@ head_description: "Android document translation Cloud SDK & REST API. Translate 
 
 ############################# Header ############################
 title: "Android Cloud SDK & REST API for Document Translation"
-description: "Use Android Cloud SDK to add text and document translation between 19 most widely used business languages to your applications."
+description: "Use Android Cloud SDK to add text and document translation between 28 most widely used business languages to your applications."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Android was released to help Android developers to integrate translation features into their applications without using any external software. REST API is based on combination of modern neural network architecture to provide good translation quality and our products to extract text from Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel workbooks (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), PDF documents and Markdown files and insert translated content into the same place, preserving document structure, styles and layouts. The SDK supports translation from English into one of 18 popular business languages, including French, German, Spanish, Chinese, Russian, Arabic, Italian, Portuguese, etc. and 42 language pairs.
+      GroupDocs.Translation Cloud SDK for Android was released to help Android developers to integrate translation features into their applications without using any external software. REST API is based on combination of modern neural network architecture to provide good translation quality and our products to extract text from Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel workbooks (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), PDF documents and Markdown files and insert translated content into the same place, preserving document structure, styles and layouts. The SDK supports translation from English into one of 28 popular business languages, including French, German, Spanish, Chinese, Russian, Arabic, Italian, Portuguese, etc. and 60 language pairs.
 
       GroupDocs.Translation REST API can easily integrate into existing systems thus managing the low-level details of API requests and handling responses to boost up the overall productivity. You just need to pass out request parameters (path of source file name, format & folder, choose the language pair to translate between, mention the name of translated file, folder and location of the target file to be stored) and get the documents translated by adding a few lines of code.
     tabs:
@@ -105,6 +105,15 @@ overview:
             * English to Swedish & vice versa
             * English to Hungarian & vice versa
             * English to Turkish & vice versa
+            * English to Japanese & vice versa
+            * English to Korean & vice versa
+            * English to Czech & vice versa
+            * English to Finnish & vice versa
+            * English to Irish & vice versa
+            * English to Slovak & vice versa
+            * English to Farsi & vice versa
+            * English to Hebrew & vice versa
+            * English to Azerbaijani & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -181,7 +190,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 19 languages and 42 language pairs"
+        content: "Supports 28 languages and 60 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

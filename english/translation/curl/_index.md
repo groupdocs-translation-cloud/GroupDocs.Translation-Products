@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF & Markdown documents across 30 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
+      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF & Markdown documents across 60 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
 
       The API precisely reads the text within the contents of Word documents (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
     tabs:
@@ -105,6 +105,15 @@ overview:
             * English to Swedish & vice versa
             * English to Hungarian & vice versa
             * English to Turkish & vice versa
+            * English to Japanese & vice versa
+            * English to Korean & vice versa
+            * English to Czech & vice versa
+            * English to Finnish & vice versa
+            * English to Irish & vice versa
+            * English to Slovak & vice versa
+            * English to Farsi & vice versa
+            * English to Hebrew & vice versa
+            * English to Azerbaijani & vice versa 
       
       ## TAB TWO ##
       tab_two:
@@ -179,7 +188,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 19 languages and 42 language pairs"
+        content: "Supports 28 languages and 60 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
