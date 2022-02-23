@@ -10,7 +10,7 @@ head_description: "Accurately translate text and business documents created in M
 
 ############################# Header ############################
 title: "Business Documents Translation Solution"
-description: "‎Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint, PDF & Markdown file formats into other languages across popular platforms"
+description: "Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint, PDF & Markdown file formats into other languages across popular platforms"
 
 ############################# APIs ###############################
 apis:
