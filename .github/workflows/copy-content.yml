@@ -7,11 +7,11 @@ on:
   # Triggers the workflow on push or pull request events but only for the main branch
   # I actually disable this workflow to run as we don't need this any more.
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'english/translation/**'
   pull_request:
-    branches: [ main1 ]
+    branches: [ master ]
     paths:
       - 'english/translation/**'
 
