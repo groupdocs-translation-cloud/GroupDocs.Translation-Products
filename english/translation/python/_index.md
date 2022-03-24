@@ -242,7 +242,7 @@ features:
           
           
           ```cs
-            //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
+            // Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
 
             from groupdocstranslationcloud.configuration import Configuration
             from groupdocstranslationcloud.api.translation_api import TranslationApi
