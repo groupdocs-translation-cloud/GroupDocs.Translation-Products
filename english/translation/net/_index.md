@@ -15,7 +15,7 @@ head_description: ".NET document translation Cloud SDK & REST API. Translate Eng
 
 ############################# Header ############################
 title: ".NET Cloud SDK for Document Translation"
-description: "Translate plain text, Microsoft Word, Excel, PowerPoint, PDF & Markdown documents between 28 most popular business languages using documents translation Cloud SDK & REST API."
+description: "Translate plain text, Microsoft Word, Excel, PowerPoint, PDF OpenDocument & Markdown documents between 31 most popular business languages using documents translation Cloud SDK & REST API."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for .NET helps developers to add text and document translation features in any type of .NET based application without using external software. The API uses modern machine learning techniques to efficiently read & translate the on-page contents of Microsoft Word documents (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets (charts, tables, cells, pivot tables), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart) and PDF documents between 28 of the leading business languages. It includes translating English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other language pairs without disrupting the original document structure.
+      GroupDocs.Translation Cloud SDK for .NET helps developers to add text and document translation features in any type of .NET based application without using external software. The API uses modern machine learning techniques to efficiently read & translate the on-page contents of Microsoft Word documents and ODT files (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets and ODS files (charts, tables, cells, pivot tables), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart) and PDF documents between 31 of the leading business languages. It includes translating English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other language pairs without disrupting the original document structure.
 
       GroupDocs.Translation Cloud is a true REST API thus offering flexibility to use it with any language or platform that supports REST. It easily integrates with other cloud services to provide an ideal document translation experience across web, mobile desktop or cloud platforms.
     tabs:
@@ -79,6 +79,7 @@ overview:
             * Translate PowerPoint Slides
             * Translate PDF Documents
             * Translate Markdown files
+            * Translate OpenDocument files
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -114,6 +115,9 @@ overview:
             * English to Farsi & vice versa
             * English to Hebrew & vice versa
             * English to Azerbaijani & vice versa
+            * English to Thai & vice versa
+            * English to Romanian & vice versa
+            * English to Malay & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -129,6 +133,7 @@ overview:
                 * **Word**: DOC, DOCX, DOCM
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
+                * **OpenDocument**: ODT, ODS, ODP
                 
         right:
           enable: true
@@ -138,6 +143,10 @@ overview:
               content: |
                 * **PDF**
                 * **Markdown**
+                * **CSV**
+                * **TSV**
+                * **RTF**
+                * **TXT**
 
         
 
@@ -189,7 +198,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 28 languages and 60 language pairs"
+        content: "Supports 31 languages and 66 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

@@ -15,7 +15,7 @@ head_description: "Translate text from Word and Excel worksheets via cURL comman
 
 ############################# Header ############################
 title: "Translate Documents using cURL"
-description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint, PDF & Markdown documents in popular business languages without installing any external software."
+description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint, PDF, OpenDocument & Markdown documents in popular business languages without installing any external software."
 button:
     enable: true
 
@@ -57,9 +57,9 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF & Markdown documents across 60 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
+      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF, OpenDocument & Markdown documents across 66 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
 
-      The API precisely reads the text within the contents of Word documents (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
+      The API precisely reads the text within the contents of Word documents and ODT files (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets and ODS files (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
     tabs:
       enable: true
       
@@ -79,6 +79,7 @@ overview:
             * Translate PowerPoint Slides
             * Translate PDF Documents
             * Translate Markdown files
+            * Translate OpenDocument files
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -114,6 +115,9 @@ overview:
             * English to Farsi & vice versa
             * English to Hebrew & vice versa
             * English to Azerbaijani & vice versa 
+            * English to Thai & vice versa
+            * English to Romanian & vice versa
+            * English to Malay & vice versa 
       
       ## TAB TWO ##
       tab_two:
@@ -129,6 +133,7 @@ overview:
                 * **Word**: DOC, DOCX, DOCM
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
+                * **OpenDocument**: ODT, ODS, ODP
                 
         right:
           enable: true
@@ -138,6 +143,10 @@ overview:
               content: |
                 * **PDF**
                 * **Markdown**
+                * **CSV**
+                * **TSV**
+                * **RTF**
+                * **TXT**
         
 
 
@@ -188,7 +197,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 28 languages and 60 language pairs"
+        content: "Supports 31 languages and 66 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

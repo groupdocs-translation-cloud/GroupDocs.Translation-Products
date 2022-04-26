@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint, PDF, Markdown documents and plain text within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and others without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
+      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint, PDF, OpenDocument, Markdown documents and plain text within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and others without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
 
       GroupDocs.Translation Cloud SDK for Python has been built as a layer on top of GroupDocs.Translation Cloud REST API that saves valuable development time by managing low-level requests and handling responses. The developers can focus on writing up the specific code only as needed in the project.
     tabs:
@@ -79,6 +79,7 @@ overview:
             * Translate PowerPoint Slides
             * Translate PDF Documents
             * Translate Markdown files
+            * Translate OpenDocument files
         right:
           enable: true
           icon: "fas fa-file-alt"
@@ -114,6 +115,9 @@ overview:
             * English to Farsi & vice versa
             * English to Hebrew & vice versa
             * English to Azerbaijani & vice versa
+            * English to Thai & vice versa
+            * English to Romanian & vice versa
+            * English to Malay & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -129,6 +133,7 @@ overview:
                 * **Word**: DOC, DOCX, DOCM
                 * **Excel**:  XLS, XLSX, XLSM
                 * **PowerPoint**: PPT, PPTX, PPTM
+                * **OpenDocument**: ODT, ODS, ODP
                 
         right:
           enable: true
@@ -138,6 +143,10 @@ overview:
               content: |
                 * **PDF**
                 * **Markdown**
+                * **CSV**
+                * **TSV**
+                * **RTF**
+                * **TXT**
         
 
 
@@ -188,7 +197,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 28 languages and 60 language pairs"
+        content: "Supports 31 languages and 66 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
