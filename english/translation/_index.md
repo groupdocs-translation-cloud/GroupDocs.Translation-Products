@@ -36,7 +36,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Translation"
           platform: ".NET"
-          content: "Use language translation RESTful API easily with .NET Cloud SDK to transform text and on-page contents of popular business file formats into 31 international languages and 66 language pairs."
+          content: "Use language translation RESTful API easily with .NET Cloud SDK to transform text and on-page contents of popular business file formats into 32 international languages and 68 language pairs."
 
         # api_product loop
         - link: "/translation/java/"
@@ -65,7 +65,7 @@ apis:
           image: "/logo/app/groupdocs_words-app.png"
           product: "GroupDocs.Translation"
           platform: "Word"
-          content: "Translate your Word content with 66 language pairs support without leaving your favorite web browser."
+          content: "Translate your Word content with 68 language pairs support without leaving your favorite web browser."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/pdf"

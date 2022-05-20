@@ -118,6 +118,7 @@ overview:
             * English to Thai & vice versa
             * English to Romanian & vice versa
             * English to Malay & vice versa
+            * English to Bulgarian & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -197,7 +198,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 31 languages and 66 language pairs"
+        content: "Supports 32 languages and 68 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

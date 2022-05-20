@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF, OpenDocument & Markdown documents across 66 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
+      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF, OpenDocument & Markdown documents across 68 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
 
       The API precisely reads the text within the contents of Word documents and ODT files (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets and ODS files (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
     tabs:
@@ -118,6 +118,7 @@ overview:
             * English to Thai & vice versa
             * English to Romanian & vice versa
             * English to Malay & vice versa 
+            * English to Bulgarian & vice versa
       
       ## TAB TWO ##
       tab_two:
@@ -197,7 +198,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 31 languages and 66 language pairs"
+        content: "Supports 32 languages and 68 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
