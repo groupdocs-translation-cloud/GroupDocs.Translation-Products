@@ -15,7 +15,7 @@ head_description: ".NET document translation Cloud SDK & REST API. Translate Eng
 
 ############################# Header ############################
 title: ".NET Cloud SDK for Document Translation"
-description: "Translate plain text, Microsoft Word, Excel, PowerPoint, PDF OpenDocument & Markdown documents between 32 most popular business languages using documents translation Cloud SDK & REST API."
+description: "Translate plain text, Microsoft Word, Excel, PowerPoint, PDF OpenDocument & Markdown documents between 35 most popular business languages using documents translation Cloud SDK & REST API."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for .NET helps developers to add text and document translation features in any type of .NET based application without using external software. The API uses modern machine learning techniques to efficiently read & translate the on-page contents of Microsoft Word documents and ODT files (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets and ODS files (charts, tables, cells, pivot tables), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart) and PDF documents between 32 of the leading business languages. It includes translating English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other language pairs without disrupting the original document structure.
+      GroupDocs.Translation Cloud SDK for .NET helps developers to add text and document translation features in any type of .NET based application without using external software. The API uses modern machine learning techniques to efficiently read & translate the on-page contents of Microsoft Word documents and ODT files (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets and ODS files (charts, tables, cells, pivot tables), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart) and PDF documents between 35 of the leading business languages. It includes translating English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other language pairs without disrupting the original document structure.
 
       GroupDocs.Translation Cloud is a true REST API thus offering flexibility to use it with any language or platform that supports REST. It easily integrates with other cloud services to provide an ideal document translation experience across web, mobile desktop or cloud platforms.
     tabs:
@@ -199,7 +199,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 32 languages and 68 language pairs"
+        content: "Supports 35 languages and 74 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

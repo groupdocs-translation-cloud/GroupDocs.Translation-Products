@@ -15,7 +15,7 @@ head_description: "Java document translation Cloud SDK & REST API. Translate Eng
 
 ############################# Header ############################
 title: "Document Translation REST API & Java SDK"
-description: "Add features of documents and plain text translation in your Java applications using Cloud REST API. Accurately translate content between 32 most widely used business languages."
+description: "Add features of documents and plain text translation in your Java applications using Cloud REST API. Accurately translate content between 35 most widely used business languages."
 button:
     enable: true
 
@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Java makes it simple for developers translating the contents on Microsoft Word, Excel, PowerPoint, PDF, OpenDocument, Markdown documents and plain text without using any external software. The API employs a smart neural machine translation approach to translate text from Microsoft Word documents and ODT files (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets and ODS files (charts, tables, cells, pivot tables), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart) and PDF documents into 68 language pairs. The SDK supports converting English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages while keeping the original document structure undisturbed.
+      GroupDocs.Translation Cloud SDK for Java makes it simple for developers translating the contents on Microsoft Word, Excel, PowerPoint, PDF, OpenDocument, Markdown documents and plain text without using any external software. The API employs a smart neural machine translation approach to translate text from Microsoft Word documents and ODT files (paragraphs, tables, image captions, headers, footers, footnotes, endnotes), Excel Worksheets and ODS files (charts, tables, cells, pivot tables), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart) and PDF documents into 74 language pairs. The SDK supports converting English text from supported document formats to and from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages while keeping the original document structure undisturbed.
 
       GroupDocs.Translation REST API can easily integrate into existing systems thus managing the low-level details of API requests and handling responses to boost up the overall productivity. You just need to pass out request parameters (path of source file name, format & folder, choose the language pair to translate between, mention the name of translated file, folder and location of the target file to be stored) and get the documents translated by adding a few lines of code.
     tabs:
@@ -199,7 +199,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 32 languages and 68 language pairs"
+        content: "Supports 35 languages and 74 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"

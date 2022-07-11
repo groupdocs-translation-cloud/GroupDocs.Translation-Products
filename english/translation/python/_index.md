@@ -198,7 +198,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 32 languages and 68 language pairs"
+        content: "Supports 35 languages and 74 language pairs"
 
       # feature loop
       - icon: "fas fa-copy"
