@@ -5,12 +5,15 @@ date: 2021-04-27T09:31:06+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Text & Document Translation Cloud API and SDKs"
-head_description: "Enable your applications to perform text and document translation between popular business languages on any platform using GroupDocs.Translation REST APIs & SDKs"
+head_title: "API and SDKs for text and document translation"
+head_description: "Built translation features into your desktop, web, cloud and mobile applications by using GroupDocs.Translation SDKs or directly calling the REST API."
+
+
+Enable your applications to perform text and document translation between popular business languages on any platform "
 
 ############################# Header ############################
-title: "Text & Document Translation API and SDKs"
-description: "Enable your applications to perform text and document translation between popular business languages on any platform using GroupDocs.Translation REST APIs & SDKs"
+title: "API and SDKs for text and document translation"
+description: "Built translation features into your desktop, web, cloud and mobile applications by using GroupDocs.Translation SDKs or directly calling the REST API."
 
 ############################# APIs ###############################
 apis:
@@ -18,7 +21,7 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Translation Cloud SDks Include"
+    - title: "GroupDocs.Translation Cloud SDKs"
       
       api_product:
         # api_product loop
@@ -27,7 +30,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Translation"
           platform: "cURL"
-          content: "Work with cURL commands to send requests to GroupDocs.Translation REST API and transform text on documents between 74 language pairs."
+          content: "Interact with translation REST API using cURL commands. Translate texts and documents to and from English, French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and other languages."
 
         # api_product loop
         - link: "/translation/net/"
@@ -35,7 +38,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for .NET"
-          content: "Build Cloud-based application to translate text and popular document formats to other languages using SDK for .NET."
+          content: "Automatically translate texts and documents between 74 language pairs in your .NET desktop and web applications. Supports all popular document formats with minimal load on end user systems or servers."
 
           # api_product loop
         - link: "/translation/java/"
@@ -43,7 +46,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for Java"
-          content: "Efficiently translate English text to and from business documents to other popular languages using document translation SDK for Java."
+          content: "Embed translation functionality into your cross-platform Java applications. Process all popular document formats carefully preserving the structure and layout of the original content."
 
     # api loop
     - api_product:
@@ -54,7 +57,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for Python"
-          content: "Documents translation SDK for Python to let you accurately transform text between 35 popular languages, directly from within your applications."
+          content: "Extend your cross-platform data science, AI, and automation solutions written in Python with automatic translation into 35 languages. Translate texts and documents in all popular formats."
           
         # api_product loop
         - link: "/translation/android/"
@@ -62,7 +65,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-android.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for Android"
-          content: "Cloud Android SDK for document translation with 74 language pairs support and optional conversion to another format."          
+          content: "Create mobile apps for Android smartphones and tablets that can translate text, Microsoft Office, OpenOffice, PDF, and other documents into 35 languages and save results in other formats."
 ############################# Back to top ###############################
 back_to_top:
   enable: true

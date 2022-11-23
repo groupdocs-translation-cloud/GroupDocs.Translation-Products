@@ -10,12 +10,12 @@ platform: "Python"
 platform_tag: "python"
 
 ############################# Head ############################
-head_title: "Python Word & Excel Document Translation SDK & REST API"
-head_description: "Python document translation Cloud SDK & REST API. Translate English text to & from French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and other languages."
+head_title: "Translate texts and documents in your Python applications"
+head_description: "Create cross-platform data science, AI, and automation solutions in Python based on GroupDocs.Translation API. Focus on business logic rather than the technical details."
 
 ############################# Header ############################
-title: "Python Document Translation REST API & SDK"
-description: "Empower your applications and tools with document translation features using Python REST API and Cloud SDK."
+title: "Python Cloud SDK for text and document translation"
+description: "Create cross-platform data science, AI, and automation solutions in Python based on GroupDocs.Translation API. Focus on business logic rather than the technical details."
 button:
     enable: true
 
@@ -57,95 +57,97 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud SDK for Python enables developers to get started with translation of Microsoft Word, Excel, PowerPoint, PDF, OpenDocument, Markdown documents and plain text within Python-based cloud applications. It supports converting English language text from supported file formats back and forth to other most popular business languages namely French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish and others without disturbing the original document structure (paragraphs, tables, image captions, charts, smartart, header, footer, cells, pivot tables).
+      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 European, Middle East and Asian languages (across 74 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
-      GroupDocs.Translation Cloud SDK for Python has been built as a layer on top of GroupDocs.Translation Cloud REST API that saves valuable development time by managing low-level requests and handling responses. The developers can focus on writing up the specific code only as needed in the project.
+      This SDK greatly simplifies the interaction with GroupDocs.Translation Cloud services from Python code, allowing you to focus on business logic rather than the technical details. It handles all the routine operations such as establishing connections, sending API requests, and parsing responses, wrapping all these tasks into a few simple methods that can be used in any Python application or workbook. The Python SDK, demo applications, documentation, and examples are open source distributed under the MIT license. You can use them for any purpose and change any part of the code.
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the main features supported by GroupDocs.Translation Cloud.
+          Main capabilities of GroupDocs.Translation Cloud SDK for Python
       
         left:
           enable: true
           icon: "fas fa-crop"
-          title: "Documents Translation"
+          title: "Supported content"
           content: |
-            * Translate Plain Text
-            * Translate Word Documents
-            * Translate Excel Worksheets
-            * Translate PowerPoint Slides
-            * Translate PDF Documents
-            * Translate Markdown files
-            * Translate OpenDocument files
+            * Plain text
+            * Microsoft Word
+            * Microsoft Excel
+            * Microsoft PowerPoint
+            * OpenOffice
+            * PDF
+            * HTML
+            * Markdown
+            * .NET resources
         right:
           enable: true
           icon: "fas fa-file-alt"
-          title: "Supported Languages"
+          title: "Supported languages"
           content: |
-            * French to German & vice versa
-            * French to Italian & vice versa
-            * French to Arabic & vice versa
-            * English to French & vice versa
-            * English to Deutsch & vice versa
-            * English to Chinese & vice versa
-            * English to Spainish & vice versa
-            * English to Italian & vice versa
-            * English to Russian & vice versa
-            * English to Arabic & vice versa
-            * English to Polish & vice versa
-            * English to Portuguese & vice versa
-            * English to Ukrainian & vice versa
-            * English to Vietnamese & vice versa
-            * English to Indonesian & vice versa
-            * English to Hindi & vice versa
-            * English to Greek & vice versa
-            * English to Dutch & vice versa
-            * English to Swedish & vice versa
-            * English to Hungarian & vice versa
-            * English to Turkish & vice versa
-            * English to Japanese & vice versa
-            * English to Korean & vice versa
-            * English to Czech & vice versa
-            * English to Finnish & vice versa
-            * English to Irish & vice versa
-            * English to Slovak & vice versa
-            * English to Farsi & vice versa
-            * English to Hebrew & vice versa
-            * English to Azerbaijani & vice versa
-            * English to Thai & vice versa
-            * English to Romanian & vice versa
-            * English to Malay & vice versa
-            * English to Bulgarian & vice versa
+            * Arabic
+            * Azerbaijani
+            * Bengali
+            * Bulgarian
+            * Chinese
+            * Czech
+            * Danish
+            * Dutch
+            * English
+            * Farsi
+            * Finnish
+            * French
+            * German
+            * Greek
+            * Hebrew
+            * Hindi
+            * Hungarian
+            * Indonesian
+            * Irish
+            * Italian
+            * Japanese
+            * Korean
+            * Malay
+            * Norwegian
+            * Polish
+            * Portuguese
+            * Romanian
+            * Russian
+            * Slovak
+            * Spanish
+            * Swedish
+            * Thai
+            * Turkish
+            * Ukrainian
+            * Vietnamese
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Translation Cloud SDK for Python supports a number of document formats.
+          GroupDocs.Translation Cloud SDK for Python supports all popular document formats
 
         left:
           enable: true
           table:
             # table loop
-            - title: "Microsoft Office Formats"
+            - title: "Office documents"
               content: |
-                * **Word**: DOC, DOCX, DOCM
-                * **Excel**:  XLS, XLSX, XLSM
-                * **PowerPoint**: PPT, PPTX, PPTM
-                * **OpenDocument**: ODT, ODS, ODP
+                * **Microsoft Word**: DOC, DOCX, DOCM
+                * **Microsoft Excel**:  XLS, XLSX, XLSM
+                * **Microsoft PowerPoint**: PPT, PPTX, PPTM
+                * **OpenOffice**: ODT, ODS, ODP
                 
         right:
           enable: true
           table:
             # table loop
-            - title: "Other Formats"
+            - title: "Other formats"
               content: |
                 * **PDF**
                 * **Markdown**
-                * **CSV**
-                * **TSV**
+                * **CSV** & **TSV**
                 * **RTF**
                 * **TXT**
         
@@ -154,7 +156,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Translation Cloud SDK for Python requires Python 2.7 or 3.4 or later.
+          GroupDocs.Translation Cloud SDK for Python works with Python 2.7 or 3.4 or later.
       
         left:
           enable: true
@@ -193,7 +195,7 @@ overview:
 ############################# Features ############################
 features:
     enable: true
-    title: "Advanced Document Translation REST API Features"
+    title: "Advanced features of GroupDocs.Translation Cloud SDK for Python"
 
     feature:
       # feature loop
@@ -201,57 +203,64 @@ features:
         content: "Supports 35 languages and 74 language pairs"
 
       # feature loop
-      - icon: "fas fa-copy"
-        content: "Translation of tables in Word & PowerPoint documents"
-
-      # feature loop
-      - icon: "fas fa-file-alt"
-        content: "Translation of headers and footers in Word & PowerPoint documents"
-      
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Translation of footnotes and endnotes in Word document"
-
-      # feature loop
-      - icon: "fas fa-file-image"
-        content: "Translation of image captions in Word documents"
-
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Translation of Text Frames, Charts & Slides within PowerPoint Presentations"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Translation of cells containing text in Excel workbooks"
-
-      # feature loop
-      - icon: "fas fa-chart-bar"
-        content: "Translation of charts in Excel workbooks"
+      - icon: "fas fa-language"
+        content: "Translates to and from 35 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"
-        content: "Translation of tables in Excel workbooks"
+        content: "Translates tables in Word documents and PowerPoint presentations"
+
+      # feature loop
+      - icon: "fas fa-file-alt"
+        content: "Translates headers and footers in documents"
+      
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "Translates footnotes and endnotes in Word documents"
+
+      # feature loop
+      - icon: "fas fa-file-image"
+        content: "Translates image captions in Word documents"
+
+      # feature loop
+      - icon: "fas fa-file-powerpoint"
+        content: "Translates text frames, charts and slides in PowerPoint presentations"
+
+      # feature loop
+      - icon: "fas fa-file-excel"
+        content: "Translates texts inside spreadsheet cells"
+
+      # feature loop
+      - icon: "fas fa-chart-bar"
+        content: "Translates charts and pivot tables in Excel workbooks"
+
+      # feature loop
+      - icon: "fas fa-code"
+        content: "Translates Markdown files preserving all common Markdown formatting"
+
+      # feature loop
+      - icon: "fas fa-link"
+        content: "Translates files from URLs and public repositories"
+
       # feature loop
       - icon: "fas fa-random"
-        content: "Translation of pivot tables in Excel workbooks"
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "APIs are secured and require authentication"
+        content: "Converts results into different formats without additional software"
+
       # feature loop
       - icon: "fas fa-list"
-        content: "API explorer based on swagger collection"
+        content: "Detailed developer reference based on Swagger collection"
     
     more_feature:
       # more_feature_loop
-      - title: "Working with Document Translation REST API"
-        content: "GroupDocs.Translation Cloud API comes with detailed developer guides and live code examples for all major programming languages to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API and you are ready to make an API request on any platform using cURL commands or the SDKs of your choice."
+      - title: "Quick start with document translation SDK for Python"
+        content: "GroupDocs.Translation Cloud SDK for Python comes with detailed developer guides and live code examples to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API and you are ready to make an API and you are ready to use the SDK."
 
       # more_feature_loop
-      - title: "Translate Word document - Python"
+      - title: "Translate Word document in Python"
         content: |
           
           
-          ```cs
+          ```python
             // Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
 
             from groupdocstranslationcloud.configuration import Configuration
@@ -279,15 +288,15 @@ features:
             print(res_doc.message)
           ```
       # more_feature_loop
-      - title: "Any Language, Platform and Storage Service Provider"
-        content: "GroupDocs.Translation for Cloud is a REST based API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies."
+      - title: "Any language, platform and storage service provider"
+        content: "GroupDocs.Translation Cloud is a REST API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies."
 
       # more_feature_loop
-      - title: "Translate plain text - Python"
+      - title: "Translate plain text in Python"
         content: |
           
           
-          ```cs
+          ```python
             //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
 
             from groupdocstranslationcloud.configuration import Configuration
@@ -307,7 +316,7 @@ features:
             print(res_text.translation)
           ```
       # more_feature_loop
-      - title: "Security and Authentication"
+      - title: "Security and authentication"
         content: "The GroupDocs.Translation Cloud API is SSL secured and the authentication requests require a signature and AppSID query parameters or OAuth 2.0 authorization header."
       
 
@@ -318,7 +327,7 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Translation Cloud also offers document translation SDKs for other languages as listed below:"
+    title: "GroupDocs.Translation Cloud offers SDKs for popular programming languages and platforms:"
 
     solution:
         # solution loop
@@ -341,13 +350,6 @@ solutions:
           product: "GroupDocs.Translation"
           platform: "Java"
           link: "/translation/java/"
-        
-        # solution loop
-        - img_alt: "GroupDocs.Translation Cloud SDK for Python"
-          image: "/sdk/272x272/groupdocs_translation-for-python.webp"
-          product: "GroupDocs.Translation"
-          platform: "Python"
-          link: "/translation/python/"
 
         # solution loop
         - img_alt: "GroupDocs.Translation Cloud SDK for Android"

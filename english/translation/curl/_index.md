@@ -10,12 +10,12 @@ platform: "cURL"
 platform_tag: "curl"
 
 ############################# Head ############################
-head_title: "Translate English Text from Word & Excel Documents via cURL Commands"
-head_description: "Translate text from Word and Excel worksheets via cURL commands. Supports translating English to & from French, German, Chinese, Italian, Spanish, Russian or other languages"
+head_title: "Translate texts and documents from the command line"
+head_description: "Interact with translation REST API directly from the command line or Bash scripts without installing any software. Translate texts and documents to and from English, French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and other languages."
 
 ############################# Header ############################
-title: "Translate Documents using cURL"
-description: "Communicate with document translation REST API to precisely translate plain text and contents of Word, Excel, PowerPoint, PDF, OpenDocument & Markdown documents in popular business languages without installing any external software."
+title: "Translate texts and documents from the command line"
+description: "Interact with translation REST API directly from the command line or Bash scripts without installing any software. Translate texts and documents to and from English, French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and other languages."
 button:
     enable: true
 
@@ -24,7 +24,7 @@ submenu:
     enable: true
     
     left:
-        img_alt: "GroupDocs.Translation for Cloud"
+        img_alt: "GroupDocs.Translation Cloud"
         image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
         product: "GroupDocs.Translation"
         platform: "cURL"
@@ -57,95 +57,97 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation Cloud for cURL is a flexible text and documents translation solution to transform text-based content on your cloud-hosted Microsoft Word, Excel, PowerPoint, PDF, OpenDocument & Markdown documents across 74 language pairs. Simply use cURL commands to send requests to the REST API, translate English language content from the supported document types to French, German, Chinese, Italian, Spanish, Russian, Arabic, Polish or other languages, and back again.
+      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 European, Middle East and Asian languages (across 74 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
-      The API precisely reads the text within the contents of Word documents and ODT files (tables, headers, footers, image captions, footnotes, endnotes), PowerPoint presentations and ODP files (text frames, header, footer, shapes, charts, smartart), Excel spreadsheets and ODS files (charts, tables, pivot tables) and PDF files without affecting the layout and properties of the original source document.
+      The service provides a versatile and easy-to-use REST API, which can be accessed without installing any software. Just use cURL commands and combine them into scripts for complex tasks. You can also use third party REST API tools like Postman. This allows you to use GroupDocs.Translation on any platform with an internet connection, even those not yet covered by the SDK.
     tabs:
       enable: true
       
       ## TAB ONE ##
       tab_one:
         description: |
-          An overview of the main features supported by GroupDocs.Translation Cloud.
+          Main capabilities of GroupDocs.Translation Cloud
       
         left:
           enable: true
           icon: "fas fa-crop"
-          title: "Documents Translation"
+          title: "Supported content"
           content: |
-            * Translate Plain Text
-            * Translate Word Documents
-            * Translate Excel Worksheets
-            * Translate PowerPoint Slides
-            * Translate PDF Documents
-            * Translate Markdown files
-            * Translate OpenDocument files
+            * Plain text
+            * Microsoft Word
+            * Microsoft Excel
+            * Microsoft PowerPoint
+            * OpenOffice
+            * PDF
+            * HTML
+            * Markdown
+            * .NET resources
         right:
           enable: true
           icon: "fas fa-file-alt"
-          title: "Supported Languages"
+          title: "Supported languages"
           content: |
-            * French to German & vice versa
-            * French to Italian & vice versa
-            * French to Arabic & vice versa
-            * English to French & vice versa
-            * English to Deutsch & vice versa
-            * English to Chinese & vice versa
-            * English to Spainish & vice versa
-            * English to Italian & vice versa
-            * English to Russian & vice versa
-            * English to Arabic & vice versa
-            * English to Polish & vice versa
-            * English to Portuguese & vice versa
-            * English to Ukrainian & vice versa
-            * English to Vietnamese & vice versa
-            * English to Indonesian & vice versa
-            * English to Hindi & vice versa
-            * English to Greek & vice versa
-            * English to Dutch & vice versa
-            * English to Swedish & vice versa
-            * English to Hungarian & vice versa
-            * English to Turkish & vice versa
-            * English to Japanese & vice versa
-            * English to Korean & vice versa
-            * English to Czech & vice versa
-            * English to Finnish & vice versa
-            * English to Irish & vice versa
-            * English to Slovak & vice versa
-            * English to Farsi & vice versa
-            * English to Hebrew & vice versa
-            * English to Azerbaijani & vice versa 
-            * English to Thai & vice versa
-            * English to Romanian & vice versa
-            * English to Malay & vice versa 
-            * English to Bulgarian & vice versa
+            * Arabic
+            * Azerbaijani
+            * Bengali
+            * Bulgarian
+            * Chinese
+            * Czech
+            * Danish
+            * Dutch
+            * English
+            * Farsi
+            * Finnish
+            * French
+            * German
+            * Greek
+            * Hebrew
+            * Hindi
+            * Hungarian
+            * Indonesian
+            * Irish
+            * Italian
+            * Japanese
+            * Korean
+            * Malay
+            * Norwegian
+            * Polish
+            * Portuguese
+            * Romanian
+            * Russian
+            * Slovak
+            * Spanish
+            * Swedish
+            * Thai
+            * Turkish
+            * Ukrainian
+            * Vietnamese
       
       ## TAB TWO ##
       tab_two:
         description: |
-          GroupDocs.Annotation Cloud supports a number of document formats including almost all common business document and image file formats.
+          GroupDocs.Translation Cloud supports all popular document formats
 
         left:
           enable: true
           table:
             # table loop
-            - title: "Microsoft Office Formats"
+            - title: "Office documents"
               content: |
-                * **Word**: DOC, DOCX, DOCM
-                * **Excel**:  XLS, XLSX, XLSM
-                * **PowerPoint**: PPT, PPTX, PPTM
-                * **OpenDocument**: ODT, ODS, ODP
+                * **Microsoft Word**: DOC, DOCX, DOCM
+                * **Microsoft Excel**:  XLS, XLSX, XLSM
+                * **Microsoft PowerPoint**: PPT, PPTX, PPTM
+                * **OpenOffice**: ODT, ODS, ODP
                 
         right:
           enable: true
           table:
             # table loop
-            - title: "Other Formats"
+            - title: "Other formats"
               content: |
                 * **PDF**
                 * **Markdown**
-                * **CSV**
-                * **TSV**
+                * **CSV** & **TSV**
                 * **RTF**
                 * **TXT**
         
@@ -154,7 +156,7 @@ overview:
       ## TAB THREE ##
       tab_three:
         description: |
-          GroupDocs.Translation Cloud for cURL - some of the supported languages and platforms.
+          GroupDocs.Translation Cloud for cURL works on any device or platform with Internet connection
       
         left:
           enable: true
@@ -193,58 +195,61 @@ overview:
 ############################# Features ############################
 features:
     enable: true
-    title: "Advanced Document Translation REST API Features"
+    title: "Advanced features of document translation REST API"
 
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 35 languages and 74 language pairs"
-
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Translation of tables in Word & PowerPoint documents"
-
-      # feature loop
-      - icon: "fas fa-file-alt"
-        content: "Translation of headers and footers in Word & PowerPoint documents"
-      
-      # feature loop
-      - icon: "fas fa-copy"
-        content: "Translation of footnotes and endnotes in Word document"
-
-      # feature loop
-      - icon: "fas fa-file-image"
-        content: "Translation of image captions in Word documents"
-
-      # feature loop
-      - icon: "fas fa-file-powerpoint"
-        content: "Translation of Text Frames, Charts & Slides within PowerPoint Presentations"
-
-      # feature loop
-      - icon: "fas fa-file-excel"
-        content: "Translation of cells containing text in Excel workbooks"
-
-      # feature loop
-      - icon: "fas fa-chart-bar"
-        content: "Translation of charts in Excel workbooks"
+        content: "Translates to and from 35 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"
-        content: "Translation of tables in Excel workbooks"
+        content: "Translates tables in Word documents and PowerPoint presentations"
+
+      # feature loop
+      - icon: "fas fa-file-alt"
+        content: "Translates headers and footers in documents"
+      
+      # feature loop
+      - icon: "fas fa-copy"
+        content: "Translates footnotes and endnotes in Word documents"
+
+      # feature loop
+      - icon: "fas fa-file-image"
+        content: "Translates image captions in Word documents"
+
+      # feature loop
+      - icon: "fas fa-file-powerpoint"
+        content: "Translates text frames, charts and slides in PowerPoint presentations"
+
+      # feature loop
+      - icon: "fas fa-file-excel"
+        content: "Translates texts inside spreadsheet cells"
+
+      # feature loop
+      - icon: "fas fa-chart-bar"
+        content: "Translates charts and pivot tables in Excel workbooks"
+
+      # feature loop
+      - icon: "fas fa-code"
+        content: "Translates Markdown files preserving all common Markdown formatting"
+
+      # feature loop
+      - icon: "fas fa-link"
+        content: "Translates files from URLs and public repositories"
+
       # feature loop
       - icon: "fas fa-random"
-        content: "Translation of pivot tables in Excel workbooks"
-      # feature loop
-      - icon: "fas fa-lock"
-        content: "APIs are secured and require authentication"
+        content: "Converts results into different formats without additional software"
+
       # feature loop
       - icon: "fas fa-list"
-        content: "API explorer based on swagger collection"
+        content: "API explorer based on Swagger collection"
     
     more_feature:
       # more_feature_loop
-      - title: "Any Language, Platform and Storage Service Provider"
-        content: "GroupDocs.Translation for Cloud is a REST based API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies. "
+      - title: "Any language, platform and storage service provider"
+        content: "GroupDocs.Translation is a REST API that can easily be integrated into any application written in any programming language capable of handling HTTP requests and responses. It natively supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies."
 
       # more_feature_loop
       - title: "Translate Word document - cURL"
@@ -266,11 +271,11 @@ features:
           }
           ```
       # more_feature_loop
-      - title: "Quick Start with Document Translation REST API"
-        content: "GroupDocs.Translation Cloud API comes with detailed developer guides and live code examples for all major programming languages to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API and you are ready to make an API request on any platform using cURL commands or the SDKs of your choice."
+      - title: "Quick start with Translation REST API"
+        content: "GroupDocs.Translation Cloud API comes with detailed developer references and live code examples for all major programming languages to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API and you are ready to make an API request on any platform using cURL commands."
 
       # more_feature_loop
-      - title: "Translate plain text - cURL"
+      - title: "Translate text - cURL"
         content: |
           
           
@@ -298,16 +303,9 @@ support:
 ############################# Solutions ############################
 solutions:
     enable: true
-    title: "GroupDocs.Translation Cloud also offers individual document translation SDKs for other popular languages as listed below:"
+    title: "GroupDocs.Translation Cloud offers SDKs for popular programming languages and platforms:"
 
     solution:
-        # solution loop
-        - img_alt: "GroupDocs.Translation Cloud SDK for cURL"
-          image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
-          product: "GroupDocs.Translation"
-          platform: "cURL"
-          link: "/translation/curl/"
-
         # solution loop
         - img_alt: "GroupDocs.Translation Cloud SDK for .NET"
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"

@@ -5,12 +5,12 @@ date: 2021-04-27T09:31:06+03:00
 draft: false
 
 ############################# Head ############################
-head_title: "Business Documents Translation Solution"
-head_description: "Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint, PDF, OpenDocument and Markdown file formats into other languages across popular platforms"
+head_title: "Text and documents translation"
+head_description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 languages on all popular platforms."
 
 ############################# Header ############################
-title: "Business Documents Translation Solution"
-description: "Accurately translate text and business documents created in Microsoft Word, Excel & PowerPoint, PDF, OpenDocument & Markdown file formats into other languages across popular platforms"
+title: "Text and documents translation"
+description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 languages on all popular platforms."
 
 ############################# APIs ###############################
 apis:
@@ -18,9 +18,9 @@ apis:
 
   api:
     # api loop
-    - title: "GroupDocs.Translation Cloud APIs Include"
+    - title: "GroupDocs.Translation Cloud API and SDKs"
       link: "/translation/family/"
-      label: "View All Cloud APIs"
+      label: "View all SDKs"
       api_product:
         # api_product loop
         - link: "/translation/curl/"
@@ -28,7 +28,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-curl.webp"
           product: "GroupDocs.Translation"
           platform: "cURL"
-          content: Interact with documents translation REST API using cURL commands. Convert English text to and from your source document formats to French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and other languages."
+          content: "Interact with translation REST API using cURL commands. Translate texts and documents to and from English, French, Chinese, Spanish, German, Italian, Russian, Arabic, Polish and other languages."
 
         # api_product loop
         - link: "/translation/net/"
@@ -36,7 +36,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Translation"
           platform: ".NET"
-          content: "Use language translation RESTful API easily with .NET Cloud SDK to transform text and on-page contents of popular business file formats into 35 international languages and 74 language pairs."
+          content: "Automatically translate texts and documents between 74 language pairs in your .NET desktop and web applications. Supports all popular document formats with minimal load on end user systems or servers."
 
         # api_product loop
         - link: "/translation/java/"
@@ -44,20 +44,20 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-java.webp"
           product: "GroupDocs.Translation"
           platform: "Java"
-          content: "Advanced documents and text translation SDK for Java applications. Translate text from Word, Excel, PowerPoint, PDF, OpenDocument, Markdown document formats to other popular languages using modern neural machine translation approach."
+          content: "Embed translation functionality into your cross-platform Java applications. Process all popular document formats carefully preserving the structure and layout of the original content."
 
     # api loop
-    - title: "GroupDocs.Translation Cross Platform Apps Include"
+    - title: "GroupDocs.Translation online applications"
       link: "https://products.groupdocs.app/translation/family"
-      label: "View All Cross Platform Apps"
+      label: "Try other web apps"
       api_product:
         # api_product loop
         - link: "https://products.groupdocs.app/translation/total"
-          img_alt: "GroupDocs.Translation Total"
+          img_alt: "Online translation of any document"
           image: "/logo/app/groupdocs_translation-app.png"
           product: "GroupDocs.Translation"
-          platform: "Total"
-          content: "Translate your Word, Excel, PowerPoint, PDF, Markdown documents to French, Chinese, Spanish, German, Russian, Arabic, and more languages using free online app."
+          platform: "All formats"
+          content: "Quickly translate PDF, Microsoft Office, OpenOffice, Markdown, text, and other documents online and save the translation in any format."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/word"
@@ -65,7 +65,7 @@ apis:
           image: "/logo/app/groupdocs_words-app.png"
           product: "GroupDocs.Translation"
           platform: "Word"
-          content: "Translate your Word content with 74 language pairs support without leaving your favorite web browser."
+          content: "Translate Word documents into 35 languages accurately preserving their structure ans styles. No software installation required."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/pdf"
@@ -73,7 +73,7 @@ apis:
           image: "/logo/app/groupdocs_pdf-app.png"
           product: "GroupDocs.Translation"
           platform: "PDF"
-          content: "Translate your PDF documents to multiple languages from anywhere, using any browser."
+          content: "Translate PDF documents into 35 European, Middle East and Asian languages carefully preserving the structure, layout and styles."
 
 ############################# Testimonials ###############################
 testimonials:
