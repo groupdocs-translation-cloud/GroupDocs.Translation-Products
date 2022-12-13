@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 European, Middle East and Asian languages (across 74 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
+      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 European, Middle East and Asian languages (across 78 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
       This SDK greatly simplifies the interaction of .NET code with GroupDocs.Translation Cloud services, allowing you to focus on business logic rather than the technical details. It handles all the routine operations such as establishing connections, sending API requests, and parsing responses, wrapping all these tasks into a few simple methods that can be used in any .NET application. The .NET SDK, demo applications, documentation, and examples are open source distributed under the MIT license. You can use them for any purpose and change any part of the code.
     tabs:
@@ -81,6 +81,7 @@ overview:
             * PDF
             * HTML
             * Markdown
+            * Hugo syntax
             * .NET resources
         right:
           enable: true
@@ -109,6 +110,8 @@ overview:
             * Italian
             * Japanese
             * Korean
+            * Latvian
+            * Lithuanian
             * Malay
             * Norwegian
             * Polish
@@ -201,7 +204,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Translates to and from 35 European, Middle East and Asian languages"
+        content: "Translates to and from 37 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"

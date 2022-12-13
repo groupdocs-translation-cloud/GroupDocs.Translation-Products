@@ -6,11 +6,11 @@ draft: false
 
 ############################# Head ############################
 head_title: "Text and documents translation"
-head_description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 languages on all popular platforms."
+head_description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 languages on all popular platforms."
 
 ############################# Header ############################
 title: "Text and documents translation"
-description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 languages on all popular platforms."
+description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 languages on all popular platforms."
 
 ############################# APIs ###############################
 apis:
@@ -36,7 +36,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Translation"
           platform: ".NET"
-          content: "Automatically translate texts and documents between 74 language pairs in your .NET desktop and web applications. Supports all popular document formats with minimal load on end user systems or servers."
+          content: "Automatically translate texts and documents between 78 language pairs in your .NET desktop and web applications. Supports all popular document formats with minimal load on end user systems or servers."
 
         # api_product loop
         - link: "/translation/java/"
@@ -65,7 +65,7 @@ apis:
           image: "/logo/app/groupdocs_words-app.png"
           product: "GroupDocs.Translation"
           platform: "Word"
-          content: "Translate Word documents into 35 languages accurately preserving their structure ans styles. No software installation required."
+          content: "Translate Word documents into 37 languages accurately preserving their structure ans styles. No software installation required."
 
         # api_product loop
         - link: "https://products.groupdocs.app/translation/pdf"
@@ -73,7 +73,7 @@ apis:
           image: "/logo/app/groupdocs_pdf-app.png"
           product: "GroupDocs.Translation"
           platform: "PDF"
-          content: "Translate PDF documents into 35 European, Middle East and Asian languages carefully preserving the structure, layout and styles."
+          content: "Translate PDF documents into 37 European, Middle East and Asian languages carefully preserving the structure, layout and styles."
 
 ############################# Testimonials ###############################
 testimonials:

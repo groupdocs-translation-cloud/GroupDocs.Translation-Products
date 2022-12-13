@@ -38,7 +38,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-net.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for .NET"
-          content: "Automatically translate texts and documents between 74 language pairs in your .NET desktop and web applications. Supports all popular document formats with minimal load on end user systems or servers."
+          content: "Automatically translate texts and documents between 78 language pairs in your .NET desktop and web applications. Supports all popular document formats with minimal load on end user systems or servers."
 
           # api_product loop
         - link: "/translation/java/"
@@ -57,7 +57,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-python.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for Python"
-          content: "Extend your cross-platform data science, AI, and automation solutions written in Python with automatic translation into 35 languages. Translate texts and documents in all popular formats."
+          content: "Extend your cross-platform data science, AI, and automation solutions written in Python with automatic translation into 37 languages. Translate texts and documents in all popular formats."
           
         # api_product loop
         - link: "/translation/android/"
@@ -65,7 +65,7 @@ apis:
           image: "/sdk/272x272/groupdocs_translation-for-android.webp"
           product: "GroupDocs.Translation"
           platform: "Cloud SDK for Android"
-          content: "Create mobile apps for Android smartphones and tablets that can translate text, Microsoft Office, OpenOffice, PDF, and other documents into 35 languages and save results in other formats."
+          content: "Create mobile apps for Android smartphones and tablets that can translate text, Microsoft Office, OpenOffice, PDF, and other documents into 37 languages and save results in other formats."
 ############################# Back to top ###############################
 back_to_top:
   enable: true

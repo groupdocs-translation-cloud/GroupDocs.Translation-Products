@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 European, Middle East and Asian languages (across 74 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
+      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 European, Middle East and Asian languages (across 78 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
       The service provides a versatile and easy-to-use REST API, which can be accessed without installing any software. Just use cURL commands and combine them into scripts for complex tasks. You can also use third party REST API tools like Postman. This allows you to use GroupDocs.Translation on any platform with an internet connection, even those not yet covered by the SDK.
     tabs:
@@ -81,6 +81,7 @@ overview:
             * PDF
             * HTML
             * Markdown
+            * Hugo content
             * .NET resources
         right:
           enable: true
@@ -109,6 +110,8 @@ overview:
             * Italian
             * Japanese
             * Korean
+            * Latvian
+            * Lithuanian
             * Malay
             * Norwegian
             * Polish
@@ -200,7 +203,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Translates to and from 35 European, Middle East and Asian languages"
+        content: "Translates to and from 37 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"

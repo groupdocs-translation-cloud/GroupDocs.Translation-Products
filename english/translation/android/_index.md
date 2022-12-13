@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 35 European, Middle East and Asian languages (across 74 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
+      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 European, Middle East and Asian languages (across 78 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
       This SDK greatly simplifies the interaction with GroupDocs.Translation Cloud services from Android apps, allowing you to focus on business logic rather than the technical details. It handles all the routine operations such as establishing connections, sending API requests, and parsing responses, wrapping all these tasks into a few simple methods. The translation is carried out by high-performance cloud servers. You can use the application on any system – from entry-level netbooks to smartphones.
 
@@ -83,6 +83,7 @@ overview:
             * PDF
             * HTML
             * Markdown
+            * Hugo syntax
             * .NET resources
         right:
           enable: true
@@ -112,6 +113,8 @@ overview:
             * Japanese
             * Korean
             * Malay
+            * Latvian
+            * Lithuanian
             * Norwegian
             * Polish
             * Portuguese
@@ -203,11 +206,11 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 35 languages and 74 language pairs"
+        content: "Supports 37 languages and 78 language pairs"
 
       # feature loop
       - icon: "fas fa-language"
-        content: "Translates to and from 35 European, Middle East and Asian languages"
+        content: "Translates to and from 37 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"
