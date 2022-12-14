@@ -8,6 +8,11 @@ draft: false
 head_title: "Text and documents translation"
 head_description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 languages on all popular platforms."
 
+breadcrumb:
+   -
+     label: GroupDocs.Translation
+     href: ./
+     
 ############################# Header ############################
 title: "Text and documents translation"
 description: "Automatically translate text, PDFs, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 languages on all popular platforms."
