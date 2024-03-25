@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 European, Middle East and Asian languages (across 78 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
+      GroupDocs.Translation offers real-time machine translation for texts, documents, images and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 46 European, Middle East and Asian languages (across 128 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
       This SDK greatly simplifies the interaction with GroupDocs.Translation Cloud services from Android apps, allowing you to focus on business logic rather than the technical details. It handles all the routine operations such as establishing connections, sending API requests, and parsing responses, wrapping all these tasks into a few simple methods. The translation is carried out by high-performance cloud servers. You can use the application on any system – from entry-level netbooks to smartphones.
 
@@ -83,25 +83,33 @@ overview:
             * PDF
             * HTML
             * Markdown
-            * Hugo syntax
+            * Hugo content
+            * Images
             * .NET resources
+            * Subtitles (.srt format)
         right:
           enable: true
           icon: "fas fa-file-alt"
           title: "Supported languages"
           content: |
+            * Afrikaans
             * Arabic
+            * Armenian
             * Azerbaijani
             * Bengali
             * Bulgarian
+            * Catala
             * Chinese
+            * Croatian
             * Czech
             * Danish
             * Dutch
             * English
+            * Estonian
             * Farsi
             * Finnish
             * French
+            * Georgian
             * German
             * Greek
             * Hebrew
@@ -112,20 +120,23 @@ overview:
             * Italian
             * Japanese
             * Korean
-            * Malay
             * Latvian
             * Lithuanian
+            * Malay
             * Norwegian
             * Polish
             * Portuguese
             * Romanian
             * Russian
+            * Serbian
             * Slovak
             * Spanish
             * Swedish
+            * Tagalog
             * Thai
             * Turkish
             * Ukrainian
+            * Urdu
             * Vietnamese
       
       ## TAB TWO ##
@@ -206,11 +217,11 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Supports 37 languages and 78 language pairs"
+        content: "Supports 46 languages and 128 language pairs"
 
       # feature loop
       - icon: "fas fa-language"
-        content: "Translates to and from 37 European, Middle East and Asian languages"
+        content: "Translates to and from 46 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"
@@ -261,38 +272,6 @@ features:
       - title: "Get started with document translation SDK for Android"
         content: "GroupDocs.Translation Cloud SDK for Android comes with detailed developer guides and live code examples to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API."
 
-      # more_feature_loop
-      - title: "Translate Word document in Android"
-        content: |
-          
-          
-          ```java
-            //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
-
-            import com.GroupDocs.translate.api.*;
-            import com.GroupDocs.translate.Configuration;
-
-
-            private static void setUpConfig() throws Exception {
-                Configuration.setAPP_SID("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");
-                Configuration.setAPI_KEY("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-                }
-
-            public String TranslateDocument() {
-                String name = "test.docx";
-                String folder = "";
-                String pair = "en-fr";
-                String format = "docx";
-                String storage = "First Storage";
-                String saveFile = "translation.docx";
-                String savePath = "";
-                boolean masters = false;
-                ArrayList elements = new ArrayList();
-                FileInfo fileInfo = new FileInfo(name, folder, pair, format, storage, saveFile, savePath, masters, elements);
-                TranslationDocumentRequest translationDocumentRequest = new TranslationDocumentRequest(fileInfo.toString());
-                TranslateDocumentResponse translateDocumentResponse = TranslationApi.TranslateDocument(translationDocumentRequest)
-                return translateDocumentResponse.message;
-            }
           ```
       # more_feature_loop
       - title: "Any language, platform and storage service provider"
@@ -303,26 +282,45 @@ features:
         content: |
           
           
-          ```shell
-            //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
-
-            import com.GroupDocs.translate.api.*;
-            import com.GroupDocs.translate.Configuration;
-
-
-            private static void setUpConfig() throws Exception {
-                Configuration.setAPP_SID("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");
-                Configuration.setAPI_KEY("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-                }
-
-            static String TranslateText() {
-                pair = "en-fr";
-                text = "Text to translate";
-                TextInfo textInfo = new TextInfo(pair, text);
-                TranslationTextRequest translationTextRequest = new TranslationTextRequest(TextInfo.toString());
-                TranslationTextResponse translateTextResponse = TranslationApi.TranslateText(translationTextRequest);
-                return translateTextResponse.translation;
-            }
+          ```java
+	// Import classes:
+	import com.groupdocs.ApiClient;
+	import com.groupdocs.ApiException;
+	import com.groupdocs.Configuration;
+	import com.groupdocs.auth.*;
+	import com.groupdocs.models.*;
+	import org.openapitools.client.api.TranslationApi;
+	
+	public class Example {
+	    public static void main(String[] args) {
+	        String basePath = "https://api.groupdocs.cloud/v2.0/translation";
+	        String cliendId = "YOUR_CLIENT_ID";
+	        String clientSecret = "YOUR_CLIENT_SECRET";
+	
+	        ApiClient defaultClient = new ApiClient(basePath, cliendId, clientSecret, null);
+	
+	
+	        TranslationApi apiInstance = new TranslationApi(defaultClient);
+	//        FileRequest fileRequest = new FileRequest(); // FileRequest | String in body of request, containing JSON with parameters for translation.
+	
+	        TextRequest request = new TextRequest();
+	        request.setSourceLanguage("en");
+	        request.addTargetLanguagesItem("de");
+	        request.addTextsItem("Text to translate");
+	
+	        try {
+	            CloudTextResponse cloudTextResponse = apiInstance.textRequestIdGet(apiInstance.textPost(request).getId());
+	            System.out.println(cloudTextResponse);
+	        } catch (ApiException e) {
+	            System.err.println("Exception when calling TranslationApi#autoPost");
+	            System.err.println("Status code: " + e.getCode());
+	            System.err.println("Reason: " + e.getResponseBody());
+	            System.err.println("Response headers: " + e.getResponseHeaders());
+	            e.printStackTrace();
+	        }
+	  }
+	}
+            
           ```
       # more_feature_loop
       - title: "Security and authentication"

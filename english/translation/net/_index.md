@@ -57,7 +57,7 @@ submenu:
 overview:
     enable: true
     content: |
-      GroupDocs.Translation offers real-time machine translation for texts, documents and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 37 European, Middle East and Asian languages (across 78 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
+      GroupDocs.Translation offers real-time machine translation for texts, documents, images, subtitles and resources. Powerful machine learning algorithms and sophisticated neural networks provide a quality close to that of a professional human translator, but much faster and more cost-effective. Running on a high-performance cloud server hosted by GroupDocs, it can translate PDF, Microsoft Office and OpenOffice documents, Markdown files, and .NET resources into 46 European, Middle East and Asian languages (across 128 language pairs). The API not only translates text, but also accurately preserves metadata, structure, styles, and layout of documents.
 
       This SDK greatly simplifies the interaction of .NET code with GroupDocs.Translation Cloud services, allowing you to focus on business logic rather than the technical details. It handles all the routine operations such as establishing connections, sending API requests, and parsing responses, wrapping all these tasks into a few simple methods that can be used in any .NET application. The .NET SDK, demo applications, documentation, and examples are open source distributed under the MIT license. You can use them for any purpose and change any part of the code.
     tabs:
@@ -81,25 +81,33 @@ overview:
             * PDF
             * HTML
             * Markdown
-            * Hugo syntax
+            * Hugo content
+            * Images
             * .NET resources
+            * Subtitles (.srt format)
         right:
           enable: true
           icon: "fas fa-file-alt"
           title: "Supported languages"
           content: |
+            * Afrikaans
             * Arabic
+            * Armenian
             * Azerbaijani
             * Bengali
             * Bulgarian
+            * Catala
             * Chinese
+            * Croatian
             * Czech
             * Danish
             * Dutch
             * English
+            * Estonian
             * Farsi
             * Finnish
             * French
+            * Georgian
             * German
             * Greek
             * Hebrew
@@ -118,12 +126,15 @@ overview:
             * Portuguese
             * Romanian
             * Russian
+            * Serbian
             * Slovak
             * Spanish
             * Swedish
+            * Tagalog
             * Thai
             * Turkish
             * Ukrainian
+            * Urdu
             * Vietnamese
       
       ## TAB TWO ##
@@ -204,7 +215,7 @@ features:
     feature:
       # feature loop
       - icon: "fas fa-language"
-        content: "Translates to and from 37 European, Middle East and Asian languages"
+        content: "Translates to and from 46 European, Middle East and Asian languages"
 
       # feature loop
       - icon: "fas fa-table"
@@ -256,32 +267,6 @@ features:
         content: "GroupDocs.Translation Cloud SDK for .NET comes with detailed developer guides and live code examples to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API and you are ready to use the SDK."
 
       # more_feature_loop
-      - title: "Translate Word document in .NET"
-        content: |
-          
-          
-          ```cs
-            // Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
-
-            public TranslationResponse TranslateDocument(Configuration conf)
-            {    
-                string name = "test.docx";
-                string folder = "";
-                string pair = "en-fr";
-                string format = "docx";
-                string storage = "First Storage";
-                string saveFile = "translation.docx";
-                string savePath = "";
-                bool masters = fasle;
-                List elements = new List();
-                
-                TranslationApi api = new TranslationApi(conf);
-                TranslateDocumentRequest request = api.CreateDocumentRequest(name, folder, pair, format, storage, saveFile, savePath, masters, elements);
-                TranslationResponse response = api.RunTranslationTask(request);
-                return response;
-            }
-          ```
-      # more_feature_loop
       - title: "Any language, platform and storage service provider"
         content: "GroupDocs.Translation Cloud is a REST API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies."
 
@@ -291,18 +276,55 @@ features:
           
           
           ```cs
-            //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
-
-            public TextResponse TranslateText(Configuration conf)
-            {
-                string pair = "en-fr";
-                string text = "Welcome to Paris";
-                
-                TranslationApi api = new TranslationApi(conf);
-                TranslateTextRequest request = api.CreateTextRequest(pair, text);
-                TextResponse response = api.RunTranslationTextTask(request);
-                return response;
-            }
+	using System.Collections.Generic;
+	using System.Diagnostics;
+	using System.Linq;
+	using System.Threading;
+	using GroupDocs.Translation.Cloud.Sdk.Api;
+	using GroupDocs.Translation.Cloud.Sdk.Client;
+	using GroupDocs.Translation.Cloud.Sdk.Client.Auth;
+	using GroupDocs.Translation.Cloud.Sdk.Extensions;
+	using GroupDocs.Translation.Cloud.Sdk.Model;
+	using HttpStatusCode = System.Net.HttpStatusCode;
+	
+	namespace GroupDocs.Translation.Cloud.Sdk
+	{
+		public class TextTranslator
+		{
+			public TextTranslator()
+			{
+				Configuration config = new Configuration();
+				/** Authorize your requests to GroupDocs.Translation Cloud */
+				config.OAuthFlow = OAuthFlow.APPLICATION;
+				config.OAuthClientId = "YOU_CLIENT_ID";
+				config.OAuthClientSecret = "YOU_CLIENT_SECRET";
+				/** Initialize GroupDocs.Translation API */
+				config.BasePath = "https://api.groupdocs.cloud/v2.0/translation";
+				TranslationApi apiInstance = new TranslationApi(config);
+				/** Specify translation parameters */
+				string translateFrom = new List<string>() { "Hello, world! I can read this text in my language." };
+				string sourceLanguage = "en";
+				var targetLanguages = new List<string>() { "de" };
+				var request = new TextRequest(sourceLanguage, targetLanguages, translateFrom, origin: "demo");
+				/** Send text to translation */
+				StatusResponse translationStatus = apiInstance.TextPost(request);
+				/** Wait for results from translation queue */
+				if(translationStatus.Status.ToSystemHttpStatusCode() == HttpStatusCode.Accepted)
+				{
+					while(true)
+					{
+						var result = apiInstance.TextRequestIdGet(statusResponse.Id);
+						if(result.Status.ToSystemHttpStatusCode() == HttpStatusCode.OK)
+						{
+							Console.WriteLine(result.Translations[toLang].First());
+							break;
+						}
+						Thread.Sleep(1000);
+					}
+				}
+			}
+		}
+	}
           ```
       # more_feature_loop
       - title: "Security and authentication"
