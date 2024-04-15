@@ -278,7 +278,9 @@ features:
 
       # more_feature_loop
       - title: "Translate plain text in Android"
-        content:           
+        content: |
+        
+        
           ```java
 package com.groupdocs;
 // Import classes
