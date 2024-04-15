@@ -305,7 +305,10 @@ features:
 				string translateFrom = new List<string>() { "Hello, world! I can read this text in my language." };
 				string sourceLanguage = "en";
 				var targetLanguages = new List<string>() { "de" };
-				var request = new TextRequest(sourceLanguage, targetLanguages, translateFrom, origin: "demo");
+				var request = new TextRequest(
+					sourceLanguage: sourceLanguage, 
+					targetLanguages: targetLanguages, 
+					texts: translateFrom);
 				/** Send text to translation */
 				StatusResponse translationStatus = apiInstance.TextPost(request);
 				/** Wait for results from translation queue */

@@ -281,21 +281,27 @@ features:
           ```python
             //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
 
-            from groupdocstranslationcloud.configuration import Configuration
-            from groupdocstranslationcloud.api.translation_api import TranslationApi
-            from groupdocstranslationcloud.models.translate_text import TranslateText
-            from groupdocstranslationcloud.models.translate_document import TranslateDocument
-
-            #enter valid apiKey and appSid
-            configuration = Configuration(apiKey="", appSid="")
-            api = TranslationApi(configuration)
-
-            pair = "en-fr"
-            text = "Welcome to Paris"
-            translator = TranslateText(pair, text)
-            request = translator.to_string()
-            res_text = api.post_translate_text(request)
-            print(res_text.translation)
+            import time
+            import groupdocs_translation_cloud
+            from groupdocs_translation_cloud import TextRequest, PdfFileRequest, Format
+            api = groupdocs_translation_cloud.api.TranslationApi()
+            file_api = groupdocs_translation_cloud.api.FileApi()
+            api.api_client.configuration.client_id = "YOU_CLIENT_ID"
+            api.api_client.configuration.client_secret = "YOU_CLIENT_SECRET"
+            text_request = TextRequest(source_language="en", 
+            						   target_languages=["es", "fr", "ru"], 
+            						   texts=["Hello World!", "This is a test text"], 
+            						   origin="your_application_name", 
+            						   contains_markdown=False)
+            response = api.text_post(text_request)
+            if response.status == 202:
+                while True:
+                    status_response = api.text_request_id_get(response.id)
+                    if status_response.status == 200:
+                    	for lang in status_response.translations:
+                    		print(lang + ": " + status_response.translations[lang][0])
+                    		break
+                    time.sleep(2)
           ```
       # more_feature_loop
       - title: "Security and authentication"
