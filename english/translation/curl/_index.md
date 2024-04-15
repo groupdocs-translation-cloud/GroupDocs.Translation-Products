@@ -275,7 +275,7 @@ features:
           
           
           ```shell
-	          //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
+            //Get your App SID, App Key and Storage Name at https://dashboard.groupdocs.cloud (free registration is required).
 	          // Getting token
 	          curl --location --reqest POST 'https://id.groupdocs.cloud/connect/token' \
                 --header 'Content-Type: application/x-www-form-urlencoded' \
