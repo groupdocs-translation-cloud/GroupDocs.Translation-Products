@@ -282,15 +282,12 @@ features:
                 --data-urlencode 'grant_type=client_credentials' \
                 --data-urlencode 'client_id=CLIENT-ID-VALUE' \
                 --data-urlencode 'client_secret=CLIENT-SECRET-VALUE'
-
             //response
-
             {
                 "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...BUNNec2iRtStPW2Ywek4iJmYwMbWONQ",
                 "expires_in": 3600,
                 "token_type": "Bearer"
             }
-
             // Sending text for translation
             curl --location --request POST 'https://api.groupdocs.cloud/v2.0/translation/text' \
                 --header 'Content-Type: application/json' \
@@ -304,21 +301,16 @@ features:
                         "Hello, world! I can read this text in my language."
                     ]
                 }'
-	
             //response
-	
             {
                 "status": 202,
                 "message": "Starting translation",
                 "id": "a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9"
             }
-	
             //getting translation
             curl --request GET --location 'https://api.groupdocs.cloud/v2.0/translation/text/a4fc6c6e-81b0-43c8-b62b-b8bb99520ce9' \
                 --header 'Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...UV1hLfgNCSQ4VKGCOA'	
-	
             //response
-	
             {
                 "status": 200,
                 "message": "Text translated successfully",
