@@ -283,7 +283,7 @@ features:
           
           ```java
 package com.groupdocs;
-// Import classes:
+// Import classes
 
 import com.groupdocs.model.*;
 import org.openapitools.client.api.TranslationApi;
