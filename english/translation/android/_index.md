@@ -272,7 +272,6 @@ features:
       - title: "Get started with document translation SDK for Android"
         content: "GroupDocs.Translation Cloud SDK for Android comes with detailed developer guides and live code examples to start working with API features in no time. Simply create a free account at GroupDocs Cloud, get APP SID & Key information to communicate with GroupDocs Cloud API."
 
-          ```
       # more_feature_loop
       - title: "Any language, platform and storage service provider"
         content: "GroupDocs.Translation for Cloud is a REST API that can easily be integrated with any language or platform, capable to manage HTTP requests and responses. It supports all popular cloud storage services such as Google Cloud, Drive, DropBox and Amazon S3 to interact without any dependencies."
